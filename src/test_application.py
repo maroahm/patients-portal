@@ -2,7 +2,6 @@ from patient import Patient
 import requests
 
 patient1 = Patient("Fahad", "Male", 25)
-
 uri = "http://127.0.0.1:5000"
 
 def get_patient_by_id(uri, id):
